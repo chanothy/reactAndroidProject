@@ -8,7 +8,11 @@ import {MaterialIcons} from '@expo/vector-icons';
 import ListingDetails from '../../components/ListingDetails';
 import Listings from '../../components/Listings'
 
-
+/**
+ * Explore Page information
+ * Contains info for the header
+ * Has ability to navigate.
+ */
 
 function ExploreHeader({ navigation }) {
   const [searchText, setSearchText] = React.useState('');
@@ -70,16 +74,6 @@ function ExploreHeader({ navigation }) {
         <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategorySelect('City')} >
           <FontAwesome5 name="city" size={40} color="black" />
           <Text style={styles.categoryText}>City</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategorySelect('Beachfront')} >
-          <MaterialIcons name="beach-access" size={40} color="black" />
-          <Text style={styles.categoryText}>Beachfront</Text>
-        </TouchableOpacity>
-
-         <TouchableOpacity style={styles.categoryButton} onPress={() => handleCategorySelect('Country Side')} >
-          <MaterialIcons name="nature-people" size={40} color="black" />
-          <Text style={styles.categoryText}>Country Side</Text>
         </TouchableOpacity>
 
       </ScrollView>

@@ -4,24 +4,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { Link } from 'expo-router';
 
-const categories = [
-    {
-      name: 'Tiny homes',
-      icon: 'home',
-    },
-    {
-      name: 'Cabins',
-      icon: 'house-siding',
-    },
-    {
-      name: 'Trending',
-      icon: 'local-fire-department',
-    },
-    {
-      name: 'Play',
-      icon: 'videogame-asset',
-    },
-  ];
 
 export default function ExploreHeader() {
   return (

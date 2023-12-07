@@ -4,6 +4,11 @@ import { collection, onSnapshot } from 'firebase/firestore';
 import Listings from '../../components/Listings';
 import { db } from '../../FirebaseConfig';
 
+/**
+ * Trips page 
+ * links to db with snapshots of the collection of reservations
+ */
+
 export default function Trips() {
   const [listings, setListings] = useState([]);
 
