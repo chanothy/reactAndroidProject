@@ -1,11 +1,33 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { View, Text, ScrollView } from 'react-native';
+import { collection, onSnapshot } from 'firebase/firestore';
+import Listings from '../../components/Listings';
+import { db } from '../../FirebaseConfig';
 
 export default function Trips() {
-  return (
-    <View>
-      <Text>Trips</Text>
-    </View>
-  )
-}
+  const [listings, setListings] = useState([]);
 
+  useEffect(() => {
+    const listingsCollection = collection(db, 'reservations');
+    const tripData = onSnapshot(listingsCollection, (snapshot) => {
+      const listingsList = snapshot.docs.map(doc => doc.data());
+      setListings(listingsList);
+    });
+
+    return () => tripData();
+  }, []);
+
+  return (
+  <View>
+  <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Reservations</Text>
+    <ScrollView>
+      {listings.map((listing) => (
+        <Listings
+          key={listing.listingId}
+          ids={[listing.listingId]}
+        />
+      ))}
+    </ScrollView>
+    </View>
+  );
+}
