@@ -20,7 +20,8 @@ The following **extensions** are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-exp://u.expo.dev/update/f56c2a39-d274-4f17-96b4-786ee039a970
+
+exp://u.expo.dev/update/11da9132-3e17-46a8-bd27-441767195a6e
 
 ## Notes
 
