@@ -21,18 +21,6 @@ const categories = [
       name: 'Play',
       icon: 'videogame-asset',
     },
-    {
-      name: 'City',
-      icon: 'apartment',
-    },
-    {
-      name: 'Beachfront',
-      icon: 'beach-access',
-    },
-    {
-      name: 'Countryside',
-      icon: 'nature-people',
-    },
   ];
 
 export default function ExploreHeader() {

@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { AntDesign } from '@expo/vector-icons';
 
-
+// has all the categorical info for the reservations
 export default function Listings({category, ids}) {
   const listings = [
     { id: 1, title: 'Cabin', url:'https://media.gettyimages.com/id/979549938/photo/lone-wooden-cabin-in-woods.webp?s=1024x1024&w=gi&k=20&c=tIzSPnNcXkkoOFmlIEkRnR2X2YNWksoY__2zkkBlZzk=' , price: '$100/night', category: 'Cabins' },

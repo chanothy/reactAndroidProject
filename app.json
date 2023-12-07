@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "week15",
-    "slug": "week15",
+    "slug": "project11",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,6 +34,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d7e8bb6f-2447-4fc8-bf1b-9d2e9ec2b516"
+      }
+    },
+    "owner": "chanothy",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d7e8bb6f-2447-4fc8-bf1b-9d2e9ec2b516"
     }
   }
 }
