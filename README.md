@@ -1,20 +1,21 @@
-# Project Name
+# React Airbnb Clone (Project 11)
 
-Description of the project ...
+React Native Airbnb app for Android.
 
 ## Functionality 
 
 The following **required** functionality is completed:
 
-* [ ] User sees ...
-* [ ] User can ...
-* [ ] ...
-* [ ] ...
+* [ ] Explore page.
+* [ ] User can log in.
+* [ ] Trips page.
+* [ ] User can reserve destinations.
+* [ ] User can see information about destinations.
 
 The following **extensions** are implemented:
 
-* ...
-* ...
+* React
+* Firebase
 
 ## Video Walkthrough
 
