@@ -6,8 +6,8 @@ import { AntDesign } from '@expo/vector-icons';
 
 export default function Listings({category, ids}) {
   const listings = [
-    { id: 1, title: 'Cabin', url:'https://media.gettyimages.com/id/93463536/photo/log-cabin-in-the-forest.jpg?s=612x612&w=gi&k=20&c=11biv17nKCSCYw3zJ96oF7092sbjdfHA_xtqeSACHV0=' , price: '$100/night', category: 'Cabins' },
-    { id: 2, title: 'Tiny Home', url:'https://media.gettyimages.com/id/108219206/photo/log-cabin-hidden-in-the-trees-by-the-lake-ohara-in-canada.jpg?s=612x612&w=gi&k=20&c=Fbrpof3ijCqANYPR_jxphlUp6yZhsFRTZV0YLZTeJQA=' , price: '$120/night', category: 'Tiny Homes' },
+    { id: 1, title: 'Cabin', url:'https://media.gettyimages.com/id/979549938/photo/lone-wooden-cabin-in-woods.webp?s=1024x1024&w=gi&k=20&c=tIzSPnNcXkkoOFmlIEkRnR2X2YNWksoY__2zkkBlZzk=' , price: '$100/night', category: 'Cabins' },
+    { id: 2, title: 'Tiny Home', url:'https://media.gettyimages.com/id/1305209334/photo/small-home-office.webp?s=1024x1024&w=gi&k=20&c=poBbqMTHcWkUVOj5azr-fIXgZK7CYkgqc0jb5DUZhrU=' , price: '$120/night', category: 'Tiny Homes' },
     { id: 3, title: 'Trendy', url:'https://media.gettyimages.com/id/1298286077/photo/luxury-living-room-at-night-with-sofa-floor-lamp-and-parquet-floor.webp?s=1024x1024&w=gi&k=20&c=PgsO0fa2r73hSMNmvITrumSvnptRcah_Fy1JE0DrBqk=' , price: '$90/night', category: 'Trending' },
     { id: 4, title: 'Play', url:'https://media.gettyimages.com/id/1311350206/photo/gamer-room.webp?s=1024x1024&w=gi&k=20&c=KnwJ_Htc4HSD2cTUYPeRvQPO0BkG5Ps6C5FhKfyyEqc=' , price: '$110/night', category: 'Play' },
   ];
