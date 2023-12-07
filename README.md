@@ -27,7 +27,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Learning React was a challenge. Compared to XML, it was completely different in how things connected to Firebase and how things were displayed. 
 
 ## License
 
